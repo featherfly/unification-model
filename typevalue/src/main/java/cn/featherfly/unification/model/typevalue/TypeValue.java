@@ -1,4 +1,4 @@
-package cn.featherfly.unification.model;
+package cn.featherfly.unification.model.typevalue;
 
 import java.io.Serializable;
 

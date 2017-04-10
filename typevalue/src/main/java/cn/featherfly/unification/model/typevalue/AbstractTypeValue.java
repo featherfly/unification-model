@@ -1,5 +1,5 @@
 
-package cn.featherfly.unification.model;
+package cn.featherfly.unification.model.typevalue;
 
 import cn.featherfly.common.lang.ClassUtils;
 

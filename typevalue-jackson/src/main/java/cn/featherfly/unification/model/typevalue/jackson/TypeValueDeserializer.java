@@ -1,4 +1,4 @@
-package cn.featherfly.unification.model.jackson;
+package cn.featherfly.unification.model.typevalue.jackson;
 
 import cn.featherfly.common.lang.ClassUtils;
 import cn.featherfly.common.lang.NumberUtils;

@@ -1,4 +1,4 @@
 rootProject.name = 'unified-model'
 
-include 'core'
-include 'json-jackson'
+include 'typevalue'
+include 'typevalue-jackson'

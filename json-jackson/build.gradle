@@ -1,0 +1,10 @@
+apply plugin: 'java'
+
+archivesBaseName = 'unification-model-jackson'
+
+dependencies {
+    compile ffcommon
+    compile json
+    compile slf4japi
+    runtime slf4jimpl
+}

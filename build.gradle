@@ -1,0 +1,26 @@
+subprojects {
+    apply plugin: 'java'
+    apply from: '../java_base.gradle'
+    apply from: '../maven_push.gradle'
+
+    repositories {
+        mavenCentral()
+    }
+
+    ext {
+        ffcommon = 'cn.featherfly:featherfly-common:1.5.2'
+        ffconversion = 'cn.featherfly:featherfly-conversion:1.2.0'
+        slf4japi = 'org.slf4j:slf4j-api:1.7.21'
+        slf4jimpl = 'org.slf4j:slf4j-log4j12:1.7.21'
+        json = 'com.fasterxml.jackson.core:jackson-databind:2.8.8'
+
+        // test
+        test = 'org.testng:testng:6.11'
+    }
+
+    dependencies {
+        compile 'org.slf4j:slf4j-api:1.7.25'
+        runtime 'org.slf4j:slf4j-log4j12:1.7.25'
+        testCompile test
+    }
+}

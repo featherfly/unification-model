@@ -1,0 +1,9 @@
+apply plugin: 'java'
+
+archivesBaseName = 'unification-model'
+
+dependencies {
+    compile ffcommon
+    compile slf4japi
+    runtime slf4jimpl
+}
